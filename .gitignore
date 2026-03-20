@@ -162,3 +162,10 @@ nul
 # Project temporary files (ps9003 서머리 생성 작업)
 ps9003_tmp_*
 data/ps9003/tmp_scripts/.claude/settings.local.json
+
+# Gemini and Claude config directories
+.gemini/
+.claude/
+.omc/
+.taskmaster/
+.serena/

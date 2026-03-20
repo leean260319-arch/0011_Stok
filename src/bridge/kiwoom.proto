@@ -1,0 +1,77 @@
+syntax = "proto3";
+
+package kiwoom;
+
+service KiwoomService {
+    rpc Login (LoginRequest) returns (LoginResponse);
+    rpc GetStockPrice (StockPriceRequest) returns (StockPriceResponse);
+    rpc SendOrder (OrderRequest) returns (OrderResponse);
+    rpc GetBalance (BalanceRequest) returns (BalanceResponse);
+    rpc RegisterRealtime (RealtimeRequest) returns (RealtimeResponse);
+}
+
+message LoginRequest {
+    string user_id = 1;
+    string password = 2;
+}
+
+message LoginResponse {
+    bool success = 1;
+    string message = 2;
+}
+
+message StockPriceRequest {
+    string code = 1;
+}
+
+message StockPriceResponse {
+    string code = 1;
+    int64 current_price = 2;
+    int64 open_price = 3;
+    int64 high_price = 4;
+    int64 low_price = 5;
+    int64 volume = 6;
+}
+
+message OrderRequest {
+    string account = 1;
+    string code = 2;
+    string order_type = 3;
+    int32 quantity = 4;
+    int64 price = 5;
+}
+
+message OrderResponse {
+    bool success = 1;
+    string order_no = 2;
+    string message = 3;
+}
+
+message BalanceRequest {
+    string account = 1;
+}
+
+message BalanceResponse {
+    int64 deposit = 1;
+    repeated HoldingItem holdings = 2;
+    int64 total_eval_amount = 3;
+}
+
+message HoldingItem {
+    string code = 1;
+    string name = 2;
+    int32 quantity = 3;
+    int64 avg_price = 4;
+    int64 current_price = 5;
+    int64 eval_amount = 6;
+}
+
+message RealtimeRequest {
+    repeated string codes = 1;
+    repeated string fid_list = 2;
+}
+
+message RealtimeResponse {
+    bool success = 1;
+    string message = 2;
+}

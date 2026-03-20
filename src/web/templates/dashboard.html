@@ -1,0 +1,284 @@
+{% extends "base.html" %}
+{% block title %}StokAI - 대시보드{% endblock %}
+
+{% block content %}
+<div class="dashboard-layout">
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+    <header class="dashboard-header">
+        <div class="header-left">
+            <div class="header-logo">
+                StokAI<span>Dashboard</span>
+            </div>
+            <!-- Market status badge -->
+            <span id="market-status-badge" class="badge badge-system">폐장</span>
+        </div>
+
+        <div class="header-right">
+            <!-- WebSocket connection status -->
+            <div class="connection-status">
+                <span id="ws-status-dot" class="dot dot-offline"></span>
+                <span id="ws-status-text">연결 중...</span>
+            </div>
+            <!-- Live clock -->
+            <span class="header-time" id="header-time">--:--:--</span>
+            <!-- Logout -->
+            <button class="btn btn-ghost btn-sm" id="btn-logout">로그아웃</button>
+        </div>
+    </header>
+
+    <!-- =====================================================
+         MAIN CONTENT
+         ===================================================== -->
+    <main class="dashboard-main">
+
+        <!-- ---------------------------------------------------
+             ROW 1: Summary Cards (4-column grid)
+             --------------------------------------------------- -->
+        <div class="cards-grid-4">
+
+            <!-- Card 1: Account Summary -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">계좌 요약</span>
+                </div>
+                <div id="total-asset" class="card-value font-mono">0</div>
+                <div class="card-sub">총 자산 (원)</div>
+                <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 6px;">
+                    <div class="flex justify-between items-center">
+                        <span class="text-secondary text-xs">수익률</span>
+                        <span id="profit-rate" class="card-value text-xs font-mono" style="font-size:1rem;">+0.00%</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-secondary text-xs">예수금</span>
+                        <span id="deposit" class="font-mono text-sm">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Daily P&L -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">당일 손익</span>
+                </div>
+                <div id="day-profit-rate" class="card-value font-mono">+0.00%</div>
+                <div class="card-sub">당일 수익률</div>
+                <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 6px;">
+                    <div class="flex justify-between items-center">
+                        <span class="text-secondary text-xs">실현 손익</span>
+                        <span id="realized-pnl" class="font-mono text-sm">0</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span class="text-secondary text-xs">미실현 손익</span>
+                        <span id="unrealized-pnl" class="font-mono text-sm">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: AI Signal -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">AI 시그널</span>
+                </div>
+                <div id="signal-type" class="signal-main text-neutral">관망</div>
+                <div class="card-sub">현재 시그널</div>
+                <!-- Confidence bar -->
+                <div style="margin-top: 12px;">
+                    <div class="progress-label">
+                        <span>신뢰도</span>
+                        <span id="signal-confidence-label">0%</span>
+                    </div>
+                    <div class="progress-wrap">
+                        <div id="signal-confidence-bar" class="progress-bar progress-gold" style="width: 0%"></div>
+                    </div>
+                </div>
+                <div id="signal-reasoning" class="signal-reason">-</div>
+            </div>
+
+            <!-- Card 4: Market Sentiment -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">시장 감성</span>
+                </div>
+                <div id="sentiment-score" class="card-value font-mono text-neutral">0.00</div>
+                <div class="flex items-center gap-sm" style="margin-top: 4px;">
+                    <span id="sentiment-label" class="badge badge-neutral text-xs">중립</span>
+                    <span id="sentiment-news-count" class="text-muted text-xs">0건 분석</span>
+                </div>
+                <!-- Sentiment gauge -->
+                <div style="margin-top: 14px;">
+                    <div class="sentiment-gauge">
+                        <div id="sentiment-needle" class="sentiment-needle" style="left: 50%"></div>
+                    </div>
+                    <div class="flex justify-between" style="margin-top: 4px;">
+                        <span class="text-xs text-down">부정</span>
+                        <span class="text-xs text-muted">중립</span>
+                        <span class="text-xs text-up">긍정</span>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /cards-grid-4 -->
+
+
+        <!-- ---------------------------------------------------
+             ROW 2: Control Panel + Market Index (2-column)
+             --------------------------------------------------- -->
+        <div class="section-2col">
+
+            <!-- Left: Kill Switch + Auto-trade Control -->
+            <div class="card kill-switch-panel">
+                <div class="card-header">
+                    <span class="card-title">매매 제어</span>
+                    <span id="kill-status" class="badge badge-system">대기</span>
+                </div>
+
+                <!-- Auto-trade status row -->
+                <div id="autotrade-status-wrap" class="auto-trade-status stopped" style="margin-bottom: 16px;">
+                    <span id="ws-status-dot-inner" class="dot dot-offline"></span>
+                    <span class="text-sm font-medium">자동매매</span>
+                    <span id="autotrade-status-badge" class="badge badge-system">정지</span>
+                    <span class="text-muted text-xs" style="margin-left: 4px;">전략:</span>
+                    <span id="strategy-name" class="strategy-name">-</span>
+                </div>
+
+                <!-- Auto-trade buttons + Kill switch side by side -->
+                <div class="kill-switch-row">
+                    <div class="kill-switch-info">
+                        <h4>자동매매 제어</h4>
+                        <p>전략을 시작하거나 중지합니다</p>
+                        <div class="auto-trade-controls" style="margin-top: 10px;">
+                            <button id="btn-autotrade-start" class="btn btn-up btn-sm">시작</button>
+                            <button id="btn-autotrade-stop"  class="btn btn-ghost btn-sm" disabled>중지</button>
+                        </div>
+                    </div>
+
+                    <!-- Kill switch button -->
+                    <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+                        <button id="btn-kill-on" class="kill-switch-btn" title="킬 스위치 활성화">
+                            <span class="kill-switch-icon">&#9209;</span>
+                            <span>KILL</span>
+                        </button>
+                        <button id="btn-kill-off" class="btn btn-ghost btn-sm hidden">해제</button>
+                    </div>
+                </div>
+
+                <!-- Daily loss limit progress -->
+                <div style="margin-top: 16px;">
+                    <div class="progress-label">
+                        <span>일일 손실 한도</span>
+                        <span id="daily-loss-label">0 / 0 (0%)</span>
+                    </div>
+                    <div class="progress-wrap">
+                        <div id="daily-loss-bar" class="progress-bar progress-danger" style="width: 0%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right: Market Index -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">시장 지수</span>
+                </div>
+
+                <div class="market-index-item">
+                    <span class="market-index-name">KOSPI</span>
+                    <span id="kospi-price"  class="market-index-price font-mono">0</span>
+                    <span id="kospi-change" class="market-index-change text-neutral">+0.00%</span>
+                </div>
+                <div class="market-index-item">
+                    <span class="market-index-name">KOSDAQ</span>
+                    <span id="kosdaq-price"  class="market-index-price font-mono">0</span>
+                    <span id="kosdaq-change" class="market-index-change text-neutral">+0.00%</span>
+                </div>
+            </div>
+
+        </div><!-- /section-2col -->
+
+
+        <!-- ---------------------------------------------------
+             ROW 3: Positions Table
+             --------------------------------------------------- -->
+        <div class="card">
+            <div class="card-header">
+                <span class="card-title">보유 종목</span>
+            </div>
+            <div class="table-wrap">
+                <table class="data-table" id="positions-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align:left">종목명</th>
+                            <th>수량</th>
+                            <th>평균단가</th>
+                            <th>현재가</th>
+                            <th>수익률</th>
+                            <th>평가금액</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="empty-row">
+                            <td colspan="6">보유 종목 없음</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <!-- ---------------------------------------------------
+             ROW 4: Trade Log + Alerts (2-column)
+             --------------------------------------------------- -->
+        <div class="section-2col">
+
+            <!-- Trade Log -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">매매 로그</span>
+                </div>
+                <div class="table-wrap" style="max-height: 320px; overflow-y: auto;">
+                    <table class="data-table" id="trade-log-table">
+                        <thead>
+                            <tr>
+                                <th style="text-align:left">시간</th>
+                                <th style="text-align:left">유형</th>
+                                <th style="text-align:left">종목</th>
+                                <th>가격</th>
+                                <th>수량</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="empty-row">
+                                <td colspan="5">매매 내역 없음</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Alerts Panel -->
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">알림</span>
+                    <span id="alert-badge" class="notif-badge hidden">0</span>
+                </div>
+                <div class="alert-list" id="alert-list">
+                    <div class="alert-item">
+                        <div class="alert-body">
+                            <div class="alert-message text-muted">알림 없음</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div><!-- /section-2col -->
+
+    </main><!-- /dashboard-main -->
+</div><!-- /dashboard-layout -->
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/websocket.js"></script>
+<script src="/static/js/dashboard.js"></script>
+{% endblock %}

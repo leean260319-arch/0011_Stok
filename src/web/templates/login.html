@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title %}StokAI - 로그인{% endblock %}
+
+{% block content %}
+<div class="login-page">
+    <div class="login-card">
+
+        <!-- Logo -->
+        <div class="login-logo">
+            <span class="login-logo-text">StokAI</span>
+            <span class="login-logo-sub">AI 주식 자동매매 시스템</span>
+        </div>
+
+        <!-- Login form -->
+        <form id="login-form" novalidate>
+            <div class="form-group">
+                <label class="form-label" for="username">아이디</label>
+                <input
+                    class="form-input"
+                    type="text"
+                    id="username"
+                    name="username"
+                    placeholder="아이디"
+                    autocomplete="username"
+                    required
+                    autofocus
+                />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="password">비밀번호</label>
+                <input
+                    class="form-input"
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="비밀번호를 입력하세요"
+                    autocomplete="current-password"
+                    required
+                />
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-login" id="btn-login">
+                로그인
+            </button>
+
+            <div class="error-msg" id="error-msg" role="alert"></div>
+        </form>
+
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+(function () {
+    'use strict';
+
+    var form       = document.getElementById('login-form');
+    var userInput  = document.getElementById('username');
+    var passInput  = document.getElementById('password');
+    var btnEl      = document.getElementById('btn-login');
+    var errEl      = document.getElementById('error-msg');
+
+    function showError(msg) {
+        errEl.textContent = msg;
+        errEl.classList.add('visible');
+    }
+
+    function hideError() {
+        errEl.classList.remove('visible');
+    }
+
+    function setLoading(loading) {
+        if (loading) {
+            btnEl.classList.add('btn-loading');
+            btnEl.disabled = true;
+        } else {
+            btnEl.classList.remove('btn-loading');
+            btnEl.disabled = false;
+        }
+    }
+
+    form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        hideError();
+
+        var username = userInput.value;
+        var password = passInput.value;
+        if (!username) {
+            showError('아이디를 입력하세요.');
+            userInput.focus();
+            return;
+        }
+        if (!password) {
+            showError('비밀번호를 입력하세요.');
+            passInput.focus();
+            return;
+        }
+
+        setLoading(true);
+
+        try {
+            var resp = await fetch('/api/login', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ username: username, password: password }),
+            });
+
+            var data = null;
+            try { data = await resp.json(); } catch (_) {}
+
+            if (resp.ok && data && data.token) {
+                localStorage.setItem('stokai_token', data.token);
+                window.location.href = '/dashboard';
+            } else if (resp.status === 423) {
+                var lockMsg = (data && data.detail) ? data.detail : '로그인이 잠겼습니다. 잠시 후 재시도하세요.';
+                showError(lockMsg);
+                setLoading(false);
+            } else {
+                var msg = (data && data.detail) ? data.detail : '아이디 또는 비밀번호가 올바르지 않습니다.';
+                showError(msg);
+                passInput.select();
+                setLoading(false);
+            }
+        } catch (err) {
+            showError('서버에 연결할 수 없습니다. 잠시 후 다시 시도하세요.');
+            setLoading(false);
+        }
+    });
+
+    userInput.addEventListener('input', hideError);
+    passInput.addEventListener('input', hideError);
+})();
+</script>
+{% endblock %}

@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"ls -la D:/01_LJH_PJT/0011_Stok/db/ 2>/dev/null\"}",
+  "error": "Exit code 2",
+  "timestamp": "2026-03-18T00:42:53.815Z",
+  "retry_count": 1
+}

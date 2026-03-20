@@ -1,0 +1,2241 @@
+2026-03-16 20:48:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_connect_and_close0\test.db
+2026-03-16 20:48:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_context_manager0\ctx.db
+2026-03-16 20:48:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_wal_mode_enabled0\wal.db
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_encryption_key_applied0\enc.db
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_execute_and_fetchall0\exec.db
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_db_dir_created_automatica0\subdir\nested\test.db
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_init_db_creates_all_table0\init.db
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:09 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:09 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_init_db_idempotent0\idem.db
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:09 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:09 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:09 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_init_db_idempotent0\idem.db
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:10 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_init_db_returns_manager0\ret.db
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_schemas_are_valid_sql0\schema_test.db
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_user_config_columns0\col_test.db
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_stocks_columns0\stocks_test.db
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_price_history_columns0\price_test.db
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:10 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_orders_columns0\orders_test.db
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:10 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_app_state_columns0\appstate_test.db
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_initial_version_is_zero_o0\mig.db
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-0\test_migrate_is_callable0\mig2.db
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:11 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:11 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:11 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 20:48:11 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_connect_and_close0\test.db
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_context_manager0\ctx.db
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_wal_mode_enabled0\wal.db
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_encryption_key_applied0\enc.db
+2026-03-16 20:48:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_execute_and_fetchall0\exec.db
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_db_dir_created_automatica0\subdir\nested\test.db
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_init_db_creates_all_table0\init.db
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:17 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:17 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_init_db_idempotent0\idem.db
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:17 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:17 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_init_db_idempotent0\idem.db
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:17 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_init_db_returns_manager0\ret.db
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:17 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:17 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:17 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:17 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_schemas_are_valid_sql0\schema_test.db
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_user_config_columns0\col_test.db
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_stocks_columns0\stocks_test.db
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_price_history_columns0\price_test.db
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_orders_columns0\orders_test.db
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_app_state_columns0\appstate_test.db
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:18 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:18 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:18 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:19 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_initial_version_is_zero_o0\mig.db
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:19 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:19 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:19 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:19 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 20:48:19 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-1\test_migrate_is_callable0\mig2.db
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 20:48:19 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 20:48:19 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 20:48:19 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 20:48:19 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 20:48:19 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 20:48:19 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_a
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_b
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: token
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: exists_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: del_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: del_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k1
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k2
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: some_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpfkd1vdpl\test.key
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmppqyowbnl\my.key
+2026-03-16 23:07:21 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:22 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmptj_wqcnx\src.txt -> C:\Users\USER\AppData\Local\Temp\tmptj_wqcnx\dst.enc
+2026-03-16 23:07:22 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:22 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmp5zfyuleq\src.txt -> C:\Users\USER\AppData\Local\Temp\tmp5zfyuleq\dst.enc
+2026-03-16 23:07:22 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:07:22 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmp0lx3037h\src.txt -> C:\Users\USER\AppData\Local\Temp\tmp0lx3037h\enc.bin
+2026-03-16 23:07:22 [DEBUG] stokai.security.encryption: 파일 복호화: C:\Users\USER\AppData\Local\Temp\tmp0lx3037h\enc.bin -> C:\Users\USER\AppData\Local\Temp\tmp0lx3037h\dec.txt
+2026-03-16 23:07:22 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:22 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:22 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:23 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:23 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:23 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:23 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:07:23 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:23 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:07:24 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:07:24 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:07:24 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:07:24 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 비활동 타임아웃 (30.0분) - 자동 잠금
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 비활동 타임아웃 (60.0분) - 자동 잠금
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 비활동 타임아웃 (5.0분) - 자동 잠금
+2026-03-16 23:07:24 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:30 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:31 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:31 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:31 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:31 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:31 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:31 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:08:32 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:08:32 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 비활동 타임아웃 (30.0분) - 자동 잠금
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 비활동 타임아웃 (60.0분) - 자동 잠금
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 비활동 타임아웃 (5.0분) - 자동 잠금
+2026-03-16 23:08:32 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_a
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_b
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: token
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: exists_key
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: del_key
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: del_key
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k1
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k2
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: some_key
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:08:32 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:08:32 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_connect_and_close0\test.db
+2026-03-16 23:08:32 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_context_manager0\ctx.db
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_wal_mode_enabled0\wal.db
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_encryption_key_applied0\enc.db
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_execute_and_fetchall0\exec.db
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_db_dir_created_automatica0\subdir\nested\test.db
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_init_db_creates_all_table0\init.db
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:33 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:33 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:33 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:33 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_init_db_idempotent0\idem.db
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_init_db_idempotent0\idem.db
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:34 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_init_db_returns_manager0\ret.db
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpq_x8vngi\test.key
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpv4j1zpog\my.key
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmplpegkyr3\src.txt -> C:\Users\USER\AppData\Local\Temp\tmplpegkyr3\dst.enc
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmp1cd5ugu4\src.txt -> C:\Users\USER\AppData\Local\Temp\tmp1cd5ugu4\dst.enc
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmp0o9tro7s\src.txt -> C:\Users\USER\AppData\Local\Temp\tmp0o9tro7s\enc.bin
+2026-03-16 23:08:34 [DEBUG] stokai.security.encryption: 파일 복호화: C:\Users\USER\AppData\Local\Temp\tmp0o9tro7s\enc.bin -> C:\Users\USER\AppData\Local\Temp\tmp0o9tro7s\dec.txt
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_schemas_are_valid_sql0\schema_test.db
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_user_config_columns0\col_test.db
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:34 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:34 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_stocks_columns0\stocks_test.db
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_price_history_columns0\price_test.db
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_orders_columns0\orders_test.db
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_app_state_columns0\appstate_test.db
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_initial_version_is_zero_o0\mig.db
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_migrate_is_callable0\mig2.db
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:35 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:35 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:35 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:08:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_save_and_load_session0\session.db
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_save_and_load_session0\session.db
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_save_and_load_session0\session.db
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_load_session_empty_return0\empty.db
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_load_session_empty_return0\empty.db
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:36 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:37 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_session_stores_window_geo0\geo.db
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_session_stores_window_geo0\geo.db
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:37 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_session_stores_window_geo0\geo.db
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_session_stores_splitter_s0\split.db
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_session_stores_splitter_s0\split.db
+2026-03-16 23:08:37 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:37 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:38 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-2\test_session_stores_splitter_s0\split.db
+2026-03-16 23:08:38 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:45 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:45 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:46 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:46 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:46 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:46 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:46 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:08:47 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:08:47 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 비활동 타임아웃 (30.0분) - 자동 잠금
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 비활동 타임아웃 (60.0분) - 자동 잠금
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 비활동 타임아웃 (5.0분) - 자동 잠금
+2026-03-16 23:08:47 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_a
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_b
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: token
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: exists_key
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: del_key
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: del_key
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k1
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k2
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: some_key
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:08:47 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:08:47 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_connect_and_close0\test.db
+2026-03-16 23:08:47 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:47 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_context_manager0\ctx.db
+2026-03-16 23:08:47 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_wal_mode_enabled0\wal.db
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_encryption_key_applied0\enc.db
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_execute_and_fetchall0\exec.db
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_db_dir_created_automatica0\subdir\nested\test.db
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_init_db_creates_all_table0\init.db
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:48 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:48 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_init_db_idempotent0\idem.db
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:48 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:48 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_init_db_idempotent0\idem.db
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:49 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_init_db_returns_manager0\ret.db
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpd6w2t86j\test.key
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpv59qz5jd\my.key
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmp_j2njrew\src.txt -> C:\Users\USER\AppData\Local\Temp\tmp_j2njrew\dst.enc
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmphkm713lz\src.txt -> C:\Users\USER\AppData\Local\Temp\tmphkm713lz\dst.enc
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmpazohfcda\src.txt -> C:\Users\USER\AppData\Local\Temp\tmpazohfcda\enc.bin
+2026-03-16 23:08:49 [DEBUG] stokai.security.encryption: 파일 복호화: C:\Users\USER\AppData\Local\Temp\tmpazohfcda\enc.bin -> C:\Users\USER\AppData\Local\Temp\tmpazohfcda\dec.txt
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_schemas_are_valid_sql0\schema_test.db
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_user_config_columns0\col_test.db
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_stocks_columns0\stocks_test.db
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:49 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:49 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_price_history_columns0\price_test.db
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_orders_columns0\orders_test.db
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_app_state_columns0\appstate_test.db
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_initial_version_is_zero_o0\mig.db
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_migrate_is_callable0\mig2.db
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:08:50 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:08:50 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:08:50 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_save_and_load_session0\session.db
+2026-03-16 23:08:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_save_and_load_session0\session.db
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_save_and_load_session0\session.db
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_load_session_empty_return0\empty.db
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_load_session_empty_return0\empty.db
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:51 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:51 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_session_stores_window_geo0\geo.db
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_session_stores_window_geo0\geo.db
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:52 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_session_stores_window_geo0\geo.db
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_session_stores_splitter_s0\split.db
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_session_stores_splitter_s0\split.db
+2026-03-16 23:08:52 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:08:52 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:08:53 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-3\test_session_stores_splitter_s0\split.db
+2026-03-16 23:08:53 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:14 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_save_and_load_session0\session.db
+2026-03-16 23:09:14 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_save_and_load_session0\session.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_save_and_load_session0\session.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_load_session_empty_return0\empty.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_load_session_empty_return0\empty.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:15 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:15 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:16 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:16 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-4\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:16 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:16 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_save_and_load_session0\session.db
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_save_and_load_session0\session.db
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:34 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_save_and_load_session0\session.db
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_load_session_empty_return0\empty.db
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_load_session_empty_return0\empty.db
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:34 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:35 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:35 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:35 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:35 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:36 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:36 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-5\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:36 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:36 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:42 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:43 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:43 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:43 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:43 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:44 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:44 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:44 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:44 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:44 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:44 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:09:44 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:44 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:44 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:09:45 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:45 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:45 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 비활동 타임아웃 (30.0분) - 자동 잠금
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 비활동 타임아웃 (60.0분) - 자동 잠금
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 비활동 타임아웃 (5.0분) - 자동 잠금
+2026-03-16 23:09:45 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_a
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_b
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: token
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: exists_key
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: del_key
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: del_key
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k1
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k2
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: some_key
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:09:45 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_connect_and_close0\test.db
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_context_manager0\ctx.db
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_wal_mode_enabled0\wal.db
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_encryption_key_applied0\enc.db
+2026-03-16 23:09:45 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_execute_and_fetchall0\exec.db
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_db_dir_created_automatica0\subdir\nested\test.db
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_init_db_creates_all_table0\init.db
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:46 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:46 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_init_db_idempotent0\idem.db
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:46 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:46 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_init_db_idempotent0\idem.db
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:46 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:46 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:09:46 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_init_db_returns_manager0\ret.db
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmp6m_3izm6\test.key
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpwkhlugwx\my.key
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmpmgeu9_3l\src.txt -> C:\Users\USER\AppData\Local\Temp\tmpmgeu9_3l\dst.enc
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmp2yshd66s\src.txt -> C:\Users\USER\AppData\Local\Temp\tmp2yshd66s\dst.enc
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmpyj9s28qv\src.txt -> C:\Users\USER\AppData\Local\Temp\tmpyj9s28qv\enc.bin
+2026-03-16 23:09:47 [DEBUG] stokai.security.encryption: 파일 복호화: C:\Users\USER\AppData\Local\Temp\tmpyj9s28qv\enc.bin -> C:\Users\USER\AppData\Local\Temp\tmpyj9s28qv\dec.txt
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_schemas_are_valid_sql0\schema_test.db
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_user_config_columns0\col_test.db
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_stocks_columns0\stocks_test.db
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_price_history_columns0\price_test.db
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:47 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:47 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:47 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_orders_columns0\orders_test.db
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_app_state_columns0\appstate_test.db
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_initial_version_is_zero_o0\mig.db
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_migrate_is_callable0\mig2.db
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:09:48 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:09:48 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:09:48 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_save_and_load_session0\session.db
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_save_and_load_session0\session.db
+2026-03-16 23:09:48 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:48 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_save_and_load_session0\session.db
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_load_session_empty_return0\empty.db
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_load_session_empty_return0\empty.db
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:49 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:49 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:49 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:50 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_session_stores_window_geo0\geo.db
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:50 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-6\test_session_stores_splitter_s0\split.db
+2026-03-16 23:09:50 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:09:54 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [INFO] stokai.app: MainWindow 초기화 완료
+2026-03-16 23:10:02 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:03 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:03 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:03 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:03 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:03 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:03 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:10:04 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금 해제
+2026-03-16 23:10:04 [DEBUG] stokai.security.app_lock: PIN 설정 완료
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [WARNING] stokai.security.app_lock: 잠금 해제 실패: PIN 불일치
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 비활동 타임아웃 (30.0분) - 자동 잠금
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 비활동 타임아웃 (60.0분) - 자동 잠금
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 비활동 타임아웃 (5.0분) - 자동 잠금
+2026-03-16 23:10:04 [INFO] stokai.security.app_lock: 앱 잠금
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: api_key
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_a
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: key_b
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: token
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: to_delete
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: to_delete
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: exists_key
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: del_key
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 삭제: del_key
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k1
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: k2
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: some_key
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:10:04 [DEBUG] stokai.security.credential_manager: 자격증명 저장: dup_key
+2026-03-16 23:10:04 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_connect_and_close0\test.db
+2026-03-16 23:10:04 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:04 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_context_manager0\ctx.db
+2026-03-16 23:10:04 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_wal_mode_enabled0\wal.db
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_encryption_key_applied0\enc.db
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_execute_and_fetchall0\exec.db
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_db_dir_created_automatica0\subdir\nested\test.db
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_init_db_creates_all_table0\init.db
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:05 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:05 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:05 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:05 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_init_db_idempotent0\idem.db
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_init_db_idempotent0\idem.db
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:06 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_init_db_returns_manager0\ret.db
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpl9wvglzr\test.key
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 키 저장: C:\Users\USER\AppData\Local\Temp\tmpzcmdwgxo\my.key
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmpg4k1stb9\src.txt -> C:\Users\USER\AppData\Local\Temp\tmpg4k1stb9\dst.enc
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmp5w8cuoh_\src.txt -> C:\Users\USER\AppData\Local\Temp\tmp5w8cuoh_\dst.enc
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 새 암호화 키 생성
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 파일 암호화: C:\Users\USER\AppData\Local\Temp\tmpruf6_ye5\src.txt -> C:\Users\USER\AppData\Local\Temp\tmpruf6_ye5\enc.bin
+2026-03-16 23:10:06 [DEBUG] stokai.security.encryption: 파일 복호화: C:\Users\USER\AppData\Local\Temp\tmpruf6_ye5\enc.bin -> C:\Users\USER\AppData\Local\Temp\tmpruf6_ye5\dec.txt
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_schemas_are_valid_sql0\schema_test.db
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_user_config_columns0\col_test.db
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:06 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:06 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:06 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_stocks_columns0\stocks_test.db
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_price_history_columns0\price_test.db
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_orders_columns0\orders_test.db
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_app_state_columns0\appstate_test.db
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_initial_version_is_zero_o0\mig.db
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:07 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:07 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:07 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_migrate_is_callable0\mig2.db
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): user_config
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): stocks
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): watchlist
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): price_history
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): orders
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): trades
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): positions
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): portfolio_snapshot
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): news_sentiment
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): technical_signals
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): ai_scores
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategies
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): strategy_logs
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): backtest_results
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): alerts
+2026-03-16 23:10:08 [DEBUG] stokai.db.database: 테이블 생성(또는 확인): app_state
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 초기화 완료: 17개 테이블
+2026-03-16 23:10:08 [INFO] stokai.db.migrations: 마이그레이션 적용: v1
+2026-03-16 23:10:08 [INFO] stokai.db.migrations: 마이그레이션 완료: v1
+2026-03-16 23:10:08 [DEBUG] stokai.db.migrations: 마이그레이션 불필요 (현재 버전: 1)
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_save_and_load_session0\session.db
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_save_and_load_session0\session.db
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:08 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_save_and_load_session0\session.db
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_load_session_empty_return0\empty.db
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_load_session_empty_return0\empty.db
+2026-03-16 23:10:08 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:09 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:09 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_save_session_overwrites0\overwrite.db
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_session_stores_window_geo0\geo.db
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_session_stores_window_geo0\geo.db
+2026-03-16 23:10:09 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:09 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_session_stores_window_geo0\geo.db
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_session_stores_splitter_s0\split.db
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_session_stores_splitter_s0\split.db
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결 종료
+2026-03-16 23:10:10 [DEBUG] stokai.utils.session_manager: 세션 저장 완료
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결: C:\Users\USER\AppData\Local\Temp\pytest-of-USER\pytest-7\test_session_stores_splitter_s0\split.db
+2026-03-16 23:10:10 [INFO] stokai.db.database: DB 연결 종료

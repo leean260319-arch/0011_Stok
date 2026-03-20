@@ -1,0 +1,458 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1773732334135,
+  "projectRoot": "D:\\01_LJH_PJT\\0011_Stok",
+  "techStack": {
+    "languages": [
+      {
+        "name": "Python",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "pyproject.toml"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "fastapi",
+        "version": null,
+        "category": "backend"
+      },
+      {
+        "name": "pytest",
+        "version": null,
+        "category": "testing"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": "pytest",
+    "lintCommand": "ruff check",
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": "snake_case",
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "assets",
+      "src",
+      "tests"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "assets": {
+      "path": "assets",
+      "purpose": "Static assets",
+      "fileCount": 0,
+      "lastAccessed": 1773732334108,
+      "keyFiles": []
+    },
+    "data": {
+      "path": "data",
+      "purpose": "Data files",
+      "fileCount": 0,
+      "lastAccessed": 1773732334109,
+      "keyFiles": []
+    },
+    "dist": {
+      "path": "dist",
+      "purpose": "Distribution/build output",
+      "fileCount": 1,
+      "lastAccessed": 1773732334109,
+      "keyFiles": [
+        "StokAI_Setup_0.1.0.exe"
+      ]
+    },
+    "doc": {
+      "path": "doc",
+      "purpose": null,
+      "fileCount": 13,
+      "lastAccessed": 1773732334109,
+      "keyFiles": [
+        "a0009_script.md",
+        "code-review.md",
+        "commit-commands.md",
+        "context7.md",
+        "d0001_prd.md"
+      ]
+    },
+    "logs": {
+      "path": "logs",
+      "purpose": null,
+      "fileCount": 2,
+      "lastAccessed": 1773732334110,
+      "keyFiles": [
+        "stokai.log",
+        "stokai.log.2026-03-16"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1773732334110,
+      "keyFiles": [
+        "app.py",
+        "config.py",
+        "main.py",
+        "__init__.py"
+      ]
+    },
+    "tests": {
+      "path": "tests",
+      "purpose": "Test files",
+      "fileCount": 60,
+      "lastAccessed": 1773732334111,
+      "keyFiles": [
+        "conftest.py",
+        "test_ai_scorer.py",
+        "test_ai_settings_view.py",
+        "test_ai_signal_card.py",
+        "test_ai_status_indicator.py"
+      ]
+    },
+    "tmp": {
+      "path": "tmp",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1773732334111,
+      "keyFiles": []
+    },
+    "v": {
+      "path": "v",
+      "purpose": null,
+      "fileCount": 33,
+      "lastAccessed": 1773732334112,
+      "keyFiles": [
+        "oaisaddtodo.md",
+        "oaisbatch.md",
+        "oaisbook.md",
+        "oaischeck.md",
+        "oaiscommand.md"
+      ]
+    },
+    "tmp\\build": {
+      "path": "tmp\\build",
+      "purpose": "Build output",
+      "fileCount": 0,
+      "lastAccessed": 1773732334113,
+      "keyFiles": []
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src\\app.py",
+      "accessCount": 92,
+      "lastAccessed": 1773794794428,
+      "type": "file"
+    },
+    {
+      "path": "src",
+      "accessCount": 79,
+      "lastAccessed": 1773794561918,
+      "type": "directory"
+    },
+    {
+      "path": "src\\main.py",
+      "accessCount": 54,
+      "lastAccessed": 1773794788044,
+      "type": "file"
+    },
+    {
+      "path": "src\\engine\\strategy_engine.py",
+      "accessCount": 36,
+      "lastAccessed": 1773792371343,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 36,
+      "lastAccessed": 1773793820894,
+      "type": "directory"
+    },
+    {
+      "path": "src\\config.py",
+      "accessCount": 28,
+      "lastAccessed": 1773785348921,
+      "type": "file"
+    },
+    {
+      "path": "src\\utils\\constants.py",
+      "accessCount": 28,
+      "lastAccessed": 1773792408834,
+      "type": "file"
+    },
+    {
+      "path": "src\\engine\\risk_manager.py",
+      "accessCount": 27,
+      "lastAccessed": 1773792386134,
+      "type": "file"
+    },
+    {
+      "path": "src\\web\\server.py",
+      "accessCount": 26,
+      "lastAccessed": 1773785003667,
+      "type": "file"
+    },
+    {
+      "path": "src\\web\\api_routes.py",
+      "accessCount": 23,
+      "lastAccessed": 1773785003296,
+      "type": "file"
+    },
+    {
+      "path": "src\\web\\app_state.py",
+      "accessCount": 21,
+      "lastAccessed": 1773794338495,
+      "type": "file"
+    },
+    {
+      "path": "src\\engine\\backtest_engine.py",
+      "accessCount": 20,
+      "lastAccessed": 1773792316611,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\portfolio_view.py",
+      "accessCount": 16,
+      "lastAccessed": 1773794770896,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\chart_view.py",
+      "accessCount": 14,
+      "lastAccessed": 1773789368208,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\news_view.py",
+      "accessCount": 14,
+      "lastAccessed": 1773789371761,
+      "type": "file"
+    },
+    {
+      "path": "src\\db\\database.py",
+      "accessCount": 12,
+      "lastAccessed": 1773749156602,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\backtest_view.py",
+      "accessCount": 12,
+      "lastAccessed": 1773789364395,
+      "type": "file"
+    },
+    {
+      "path": "doc\\d0001_prd.md",
+      "accessCount": 10,
+      "lastAccessed": 1773746848772,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\trade_view.py",
+      "accessCount": 10,
+      "lastAccessed": 1773789355187,
+      "type": "file"
+    },
+    {
+      "path": "installer.iss",
+      "accessCount": 10,
+      "lastAccessed": 1773794557216,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\themes\\dark_theme.py",
+      "accessCount": 9,
+      "lastAccessed": 1773735205480,
+      "type": "file"
+    },
+    {
+      "path": "src\\web\\auth.py",
+      "accessCount": 8,
+      "lastAccessed": 1773735212746,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\alert_view.py",
+      "accessCount": 8,
+      "lastAccessed": 1773785187895,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\watchlist_view.py",
+      "accessCount": 7,
+      "lastAccessed": 1773784978928,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\dashboard.py",
+      "accessCount": 7,
+      "lastAccessed": 1773785187744,
+      "type": "file"
+    },
+    {
+      "path": "src\\security\\credential_manager.py",
+      "accessCount": 7,
+      "lastAccessed": 1773785352613,
+      "type": "file"
+    },
+    {
+      "path": "src\\web",
+      "accessCount": 5,
+      "lastAccessed": 1773735459250,
+      "type": "directory"
+    },
+    {
+      "path": "doc\\d0011_code_review.md",
+      "accessCount": 4,
+      "lastAccessed": 1773735662638,
+      "type": "file"
+    },
+    {
+      "path": "doc\\d0010_history.md",
+      "accessCount": 3,
+      "lastAccessed": 1773733422850,
+      "type": "file"
+    },
+    {
+      "path": "src\\ui\\panels\\left_panel.py",
+      "accessCount": 3,
+      "lastAccessed": 1773760147351,
+      "type": "file"
+    },
+    {
+      "path": "src\\web\\ws_manager.py",
+      "accessCount": 2,
+      "lastAccessed": 1773732414370,
+      "type": "file"
+    },
+    {
+      "path": "doc\\d0004_todo.md",
+      "accessCount": 2,
+      "lastAccessed": 1773734027320,
+      "type": "file"
+    },
+    {
+      "path": "v\\oaisdev.md",
+      "accessCount": 2,
+      "lastAccessed": 1773745271986,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_01.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733077627,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_03.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733079083,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_04.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733079108,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_02.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733079380,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_05.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733081180,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_07.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733092037,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_08.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733092197,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_06.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733092989,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_09.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733093116,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_10.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733094830,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_11.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733105302,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_12.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733105476,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_13.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733106194,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_14.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733106382,
+      "type": "file"
+    },
+    {
+      "path": "tmp\\pdf_images\\page_15.png",
+      "accessCount": 1,
+      "lastAccessed": 1773733108132,
+      "type": "file"
+    },
+    {
+      "path": "v\\guide\\common_guide.md",
+      "accessCount": 1,
+      "lastAccessed": 1773734019115,
+      "type": "file"
+    },
+    {
+      "path": "doc\\d0002_plan.md",
+      "accessCount": 1,
+      "lastAccessed": 1773734034581,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

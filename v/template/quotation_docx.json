@@ -1,0 +1,90 @@
+{
+  "name": "견적서 워드 템플릿",
+  "version": "1.0",
+  "description": "마크다운 견적서를 워드 문서로 변환하는 템플릿 설정",
+
+  "document": {
+    "defaultFont": "맑은 고딕",
+    "defaultSize": 22,
+    "margin": {
+      "top": 1440,
+      "right": 1200,
+      "bottom": 1440,
+      "left": 1200
+    }
+  },
+
+  "styles": {
+    "title": {
+      "size": 48,
+      "bold": true,
+      "color": "1F4E79",
+      "alignment": "center",
+      "spacingBefore": 200,
+      "spacingAfter": 300
+    },
+    "heading1": {
+      "size": 32,
+      "bold": true,
+      "color": "1F4E79",
+      "spacingBefore": 400,
+      "spacingAfter": 200
+    },
+    "heading2": {
+      "size": 28,
+      "bold": true,
+      "color": "2E75B6",
+      "spacingBefore": 300,
+      "spacingAfter": 150
+    },
+    "heading3": {
+      "size": 24,
+      "bold": true,
+      "color": "404040",
+      "spacingBefore": 200,
+      "spacingAfter": 100
+    },
+    "paragraph": {
+      "size": 20,
+      "spacingAfter": 100
+    },
+    "bullet": {
+      "size": 20,
+      "indent": 720
+    }
+  },
+
+  "table": {
+    "headerBackground": "E8F4FD",
+    "subtotalBackground": "F0F0F0",
+    "totalBackground": "FFF3CD",
+    "borderColor": "CCCCCC",
+    "borderSize": 1,
+    "headerSize": 22,
+    "cellSize": 20
+  },
+
+  "header": {
+    "text": "",
+    "size": 18,
+    "color": "808080",
+    "alignment": "right"
+  },
+
+  "footer": {
+    "showPageNumber": true,
+    "format": "- {current} -",
+    "size": 18,
+    "alignment": "center"
+  },
+
+  "image": {
+    "defaultWidth": 100,
+    "defaultHeight": 180
+  },
+
+  "signature": {
+    "columns": ["작성", "검토", "승인"],
+    "rowHeight": 3
+  }
+}

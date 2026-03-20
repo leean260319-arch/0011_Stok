@@ -1,0 +1,70 @@
+[project]
+name = "stokai"
+version = "0.1.0"
+description = "AI-powered stock auto-trading system with Kiwoom Securities API"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "PyQt6>=6.6.0",
+    "PyQt6-WebEngine>=6.6.0",
+    "keyring>=25.0.0",
+    "cryptography>=42.0.0",
+    "sqlcipher3>=0.5.0",
+    "pandas>=2.1.0",
+    "pandas-ta>=0.3.14b",
+    "numpy>=1.26.0",
+    "lightweight-charts>=2.0",
+    "openai>=1.12.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+    "feedparser>=6.0.0",
+    "backtrader>=1.9.78",
+    "grpcio>=1.60.0",
+    "grpcio-tools>=1.60.0",
+    "matplotlib>=3.10.8",
+    "fastapi>=0.135.1",
+    "uvicorn[standard]>=0.42.0",
+    "websockets>=16.0",
+    "jinja2>=3.1.6",
+    "python-multipart>=0.0.22",
+    "optuna>=4.8.0",
+    "finance-datareader>=0.9.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "pytest-qt>=4.3.0",
+    "pytest-asyncio>=0.23.0",
+    "pylint>=3.0.0",
+    "mypy>=1.8.0",
+    "black>=24.1.0",
+    "types-requests",
+    "pyinstaller>=6.19.0",
+    "httpx>=0.28.1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+markers = [
+    "e2e: End-to-end tests (deselect with '-m \"not e2e\"')",
+    "slow: Tests that take a long time to run",
+    "module: Module-level tests",
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.pylint.messages_control]
+disable = ["C0114", "C0115", "C0116"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true

@@ -1,0 +1,34 @@
+{
+    "development": {
+        "dev_mode": 1,
+        "debug_mode": 1,
+        "show_test_data": 1,
+        "show_sample_messages": 1,
+        "admin_features": 1,
+        "environment": "dev",
+        "show_login_debug": 1,
+        "show_db_info": 1,
+        "show_session_info": 1,
+        "enable_file_download": 1,
+        "show_technical_details": 1,
+        "auto_login_enabled": true,
+        "auto_login_user": "admin",
+        "auto_login_password": "q1w2e3r4@@"
+    },
+    "production": {
+        "dev_mode": 0,
+        "debug_mode": 0,
+        "show_test_data": 0,
+        "show_sample_messages": 0,
+        "admin_features": 0,
+        "environment": "prod",
+        "show_login_debug": 0,
+        "show_db_info": 0,
+        "show_session_info": 0,
+        "enable_file_download": 0,
+        "show_technical_details": 0,
+        "auto_login_enabled": false,
+        "auto_login_user": "",
+        "auto_login_password": ""
+    }
+}
